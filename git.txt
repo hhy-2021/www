@@ -1,9 +1,15 @@
 echo "# www" >> README.md
 git init
+git remote add origin https://github.com/hhy-2021/www.git
 
+git branch -M master
+
+===========每次提交使用下面代码=============
 
 git add .
+
+
 git commit -m "注释"
-git branch -M master
-git remote add origin https://github.com/hhy-2021/www.git
+
+
 git push -u origin master
